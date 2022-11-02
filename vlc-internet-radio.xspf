@@ -65,7 +65,7 @@
 		</track>
 		<track>
 			<location>http://radio10.pro-fhi.net:9041/stream</location>
-			<title>N/A</title>
+			<title>Rinse France</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>8</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
@@ -234,6 +234,14 @@
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
+		<track>
+			<location>https://radio1020.out.airtime.pro/radio1020_a?_ga=2.122850831.584352867.1588538998-711392780.1588538998&amp;_gac=1.149537154.1588784200.EAIaIQobChMIwZHQrNqf6QIVmu3tCh1KcgxLEAAYASAAEgJjDvD_BwE</location>
+			<title>1020 Radio Bristol</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
 	</trackList>
 	<extension application="http://www.videolan.org/vlc/playlist/0">
 		<vlc:item tid="0"/>
@@ -266,5 +274,6 @@
 		<vlc:item tid="27"/>
 		<vlc:item tid="28"/>
 		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
 	</extension>
 </playlist>
