@@ -3,15 +3,15 @@
 	<title>Playlist</title>
 	<trackList>
 		<track>
-			<location>http://stream.live.vc.bbcmedia.co.uk/bbc_6music?s=1617627340&amp;e=1617641740&amp;h=5bcfeddfa84446275daae0e9078a5d10</location>
-			<title>BBC Radio</title>
+			<location>http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8</location>
+			<title>BBC Radio 6 Music</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>https://media-ssl.musicradio.com/LBCUK?isLoggedIn=false&amp;dax_version=release_2221&amp;dax_player=GlobalPlayer&amp;dax_platform=Web&amp;aisDelivery=streaming&amp;listenerid=1621083726998_0.4085664208619636&amp;aw_0_1st.playerid=GlobalPlayer&amp;aw_0_1st.skey=1621083726&amp;aw_0_req.userConsentV2=CPERogSPERogSAGABCENBUCsAP_AAE_AAAwIG7JH7T5VZWHC-OZ5ZrsAMYhXQMSEIuQQAASAA-ABCQKQIIQGgmAQlASgBAAKAQAAIAJBAAIECAAQSQAAgAAAAACAAAAABAAIAAIAgAAAAAAIAAACAIAABAAIgAAAEAAAmwwAAIIAAAAAAAAAAAAAABAdKAIAQMAhABgADpAJDIAwAQwAmADUAI4AbwBeYwAEAVcAsQiAGANQBF4CkRAAIAq4BvAkBoABAACwAKgAZAA4AB4AEAAIgAaAA8gCGAIoATAAqgBYADmAKUAYcA1ADVAHsAP0AjgBigDeAIvAUiAvMIAGAAeAE8AQgA5wB1AFXDQBABqAG8AReApEMACAKuAvoVAIACGAEwAagBHADeAJBAU2AvMUACAKuAvodAeAAWABUADIAHAAQAAiABoADwAH0AQwBFACYAFUALAAYgA5gCYAFGAKUAYYA0QBqAD2AH6ARwAsQBigDpgIvASCAvMcAXAAQAA8AC4AOQAfgBPAC6AF8AQgAnQBzgDqAIiARYAjIBVwC6gGBAMyAa8A3gB5AF9EIBYACwAMgAiACGAEwAKoAYgBqAEcAMUAkEgAKAAQAD8AL4A5wCMgFXALEAZkA3gC-iUBIABAACwAMgAcABEADwAIgATAAqgBiADaAKMAUoA1QCOAGKAReAvMkAMAAuADkAL4AhABqAEZAKuAXUAzIBrwDeAL6KQFwAFgAVAAyABwAEAAIgAaAA8gCGAIoATAApABVACwAGIAOYAowBSgDRAGqAP0AjgCLwF5lACwAFwAcgA_ACeAF8ANoAcgBCACdAGoAOcAdQBFgCdgFXALEAXUAxQBrwDeAHkAX0AA.YAAAAAAAAAAA</location>
+			<location>https://media-ssl.musicradio.com/LBCUK</location>
 			<title>LBC UK</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
@@ -19,87 +19,50 @@
 			</extension>
 		</track>
 		<track>
-			<location>https://threads.out.airtime.pro/threads_b</location>
+			<location>https://origin.streamnerd.nl/operator/operator/icecast.audio</location>
+			<title>Operator Radio</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>https://threads2.out.airtime.pro/threads2_b</location>
+			<location>https://admin.stream.rinse.fm/proxy/rinse_uk/stream</location>
+			<title>Rinse FM UK</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://94.130.113.214:8000/dubtechno</location>
-			<title>Radio Schizoid</title>
+			<location>https://radio10.pro-fhi.net/radio/9041/stream</location>
+			<title>Rinse France</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://94.130.113.214:8000/chill</location>
-			<title>Radio Schizoid</title>
+			<location>https://oemradio-bofaradio.radioca.st/stream</location>
+			<title>OEM Radio</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://streamnerd.nl:8000/operator</location>
-			<title>Operator Radio</title>
+			<location>https://ultimae-bofaradio.radioca.st/stream</location>
+			<title>Radio Ultimae</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>6</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>https://streamer-uk.rinse.fm:8443/stream</location>
-			<title>Rinse FM UK</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>7</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>http://radio10.pro-fhi.net:9041/stream</location>
-			<title>Rinse France</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>8</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>https://oemradio-bofaradio.radioca.st/;</location>
-			<title>OEM Radio</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>9</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>https://ultimae-bofaradio.radioca.st/;</location>
-			<title>Radio Ultimae</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>10</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>https://balamii.out.airtime.pro:8000/balamii_a</location>
-			<title>Balamii A</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>11</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>http://novazz.ice.infomaniak.ch/novazz-128.mp3</location>
+			<location>https://novazz.ice.infomaniak.ch/novazz-128.mp3</location>
 			<title>NOVA - Le grand mix</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>12</vlc:id>
+				<vlc:id>7</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -107,7 +70,7 @@
 			<location>https://stream-relay-geo.ntslive.net/stream</location>
 			<title>NTS 1</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>13</vlc:id>
+				<vlc:id>8</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -115,22 +78,23 @@
 			<location>https://stream-relay-geo.ntslive.net/stream2</location>
 			<title>NTS 2</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>14</vlc:id>
+				<vlc:id>9</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://67.212.168.102:8000/;</location>
+			<location>https://ambientartsound.skydesignltd.com:8000/radio.mp3</location>
 			<title>Ambient Art Sound</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>15</vlc:id>
+				<vlc:id>10</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://ice5.somafm.com/deepspaceone-128-mp3</location>
+			<location>https://ice1.somafm.com/deepspaceone-128-mp3</location>
 			<title>Deep Space One: Deep ambient electronic and space music. [SomaFM]</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>16</vlc:id>
+				<vlc:id>11</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -138,15 +102,15 @@
 			<location>https://radio.stereoscenic.com/asp-s</location>
 			<title>Ambient Sleeping Pill</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>17</vlc:id>
+				<vlc:id>12</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>https://ice.somafm.com/dronezone</location>
+			<location>https://ice1.somafm.com/dronezone-256-mp3</location>
 			<title>Soma Drone Zone</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>18</vlc:id>
+				<vlc:id>13</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -154,22 +118,7 @@
 			<location>http://streams.echoesofbluemars.org:8000/cryosleep</location>
 			<title>Echoes of BLUEMARS - Cryosleep</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>19</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>http://server9.streamserver24.com:18800/motherearth</location>
-			<title>Mother Earth Radio</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>20</vlc:id>
-			</extension>
-		</track>
-		<track>
-			<location>http://icecast.zog.net.au:8000/source</location>
-			<title>ZOG RADIO LOSSLESS FLAC STREAM</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>21</vlc:id>
+				<vlc:id>14</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -177,28 +126,23 @@
 			<location>http://mscp3.live-streams.nl:8360/flac.flac</location>
 			<title>Naim Radio</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>22</vlc:id>
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://sectorradio.com/space-flac</location>
+			<location>http://89.223.45.5:8000/space-flac</location>
 			<title>SECTOR  |  Space channel</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>23</vlc:id>
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<location>http://sectorradio.com/nota-flac</location>
+			<location>http://89.223.45.5:8000/nota-flac</location>
 			<title>SECTOR | Nota channel</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>24</vlc:id>
-			</extension>
-		</track>
-		<track>
-			<location>http://deepend.ddns.net:8000/</location>
-			<title>DeepEnd</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>25</vlc:id>
+				<vlc:id>17</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -206,7 +150,7 @@
 			<location>https://radio.canstream.co.uk:8058/live.mp3</location>
 			<title>Bloop London 1</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>26</vlc:id>
+				<vlc:id>18</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -214,7 +158,7 @@
 			<location>https://radio.canstream.co.uk:8058/live2.mp3</location>
 			<title>Bloop London 2</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>27</vlc:id>
+				<vlc:id>19</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -222,7 +166,7 @@
 			<location>https://radio.canstream.co.uk:8058/live3.mp3</location>
 			<title>Bloop London 3</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>28</vlc:id>
+				<vlc:id>20</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -230,15 +174,7 @@
 			<location>https://radio.canstream.co.uk:8058/live4.mp3</location>
 			<title>Bloop London 4</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>29</vlc:id>
-				<vlc:option>network-caching=1000</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<location>https://radio1020.out.airtime.pro/radio1020_a?_ga=2.122850831.584352867.1588538998-711392780.1588538998&amp;_gac=1.149537154.1588784200.EAIaIQobChMIwZHQrNqf6QIVmu3tCh1KcgxLEAAYASAAEgJjDvD_BwE</location>
-			<title>1020 Radio Bristol</title>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>30</vlc:id>
+				<vlc:id>21</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -266,14 +202,5 @@
 		<vlc:item tid="19"/>
 		<vlc:item tid="20"/>
 		<vlc:item tid="21"/>
-		<vlc:item tid="22"/>
-		<vlc:item tid="23"/>
-		<vlc:item tid="24"/>
-		<vlc:item tid="25"/>
-		<vlc:item tid="26"/>
-		<vlc:item tid="27"/>
-		<vlc:item tid="28"/>
-		<vlc:item tid="29"/>
-		<vlc:item tid="30"/>
 	</extension>
 </playlist>
